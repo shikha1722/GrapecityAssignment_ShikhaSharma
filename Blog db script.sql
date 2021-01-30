@@ -1,0 +1,27 @@
+CREATE DATABASE Blog
+GO
+
+USE Blog
+GO
+
+CREATE TABLE Blog
+(
+BlogId INT IDENTITY(1,1) PRIMARY KEY,
+Title VARCHAR(50),
+BlogContent NVARCHAR(MAX)
+)
+
+GO
+
+CREATE TABLE Users
+(
+Id INT IDENTITY(1,1) PRIMARY KEY,
+Username VARCHAR(50),
+Password NVARCHAR(50)
+)
+
+GO
+
+INSERT INTO Users VALUES('Shikha', 'Test@123')
+INSERT INTO Users VALUES('Shivi', 'Test@1234')
+

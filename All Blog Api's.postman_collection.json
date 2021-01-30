@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "e3d455f9-2954-456b-bc4f-1235a0d7454a",
+		"name": "All Blog Api's",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List all the blog",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic U2hpa2hhOlRlc3RAMTIz",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44345/api/Blog/GetAllBlog",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						"api",
+						"Blog",
+						"GetAllBlog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Blog",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic U2hpa2hhOlRlc3RAMTIz",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Title\" : \"My first blog\",\r\n    \"BlogContent\" : \"This is my first blog.\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44345/api/Blog/AddBlog",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						"api",
+						"Blog",
+						"AddBlog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Blog",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic U2hpa2hhOlRlc3RAMTIz",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"BlogId\" : 1,\r\n    \"Title\" : \"Edit my first blog\",\r\n    \"BlogContent\" : \"This is my updated first blog.\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44345/api/Blog/EditBlog",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						"api",
+						"Blog",
+						"EditBlog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Blog",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic U2hpa2hhOlRlc3RAMTIz",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44345/api/Blog/DeleteBlog?id=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						"api",
+						"Blog",
+						"DeleteBlog"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

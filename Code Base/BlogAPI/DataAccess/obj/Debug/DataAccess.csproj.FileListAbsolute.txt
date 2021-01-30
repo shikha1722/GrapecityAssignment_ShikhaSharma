@@ -1,0 +1,12 @@
+E:\Grapecity\BlogAPI\DataAccess\bin\Debug\DataAccess.dll.config
+E:\Grapecity\BlogAPI\DataAccess\bin\Debug\DataAccess.dll
+E:\Grapecity\BlogAPI\DataAccess\bin\Debug\DataAccess.pdb
+E:\Grapecity\BlogAPI\DataAccess\bin\Debug\EntityFramework.dll
+E:\Grapecity\BlogAPI\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\Grapecity\BlogAPI\DataAccess\bin\Debug\EntityFramework.xml
+E:\Grapecity\BlogAPI\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\Grapecity\BlogAPI\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+E:\Grapecity\BlogAPI\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+E:\Grapecity\BlogAPI\DataAccess\obj\Debug\DataAccess.dll
+E:\Grapecity\BlogAPI\DataAccess\obj\Debug\DataAccess.pdb
+E:\Grapecity\BlogAPI\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
